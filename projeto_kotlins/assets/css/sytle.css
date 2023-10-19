@@ -9,7 +9,6 @@
 text-align: justify;
 }
 .center{
-  font-size: 20px;
   text-align: center;
 }
 img{
@@ -20,9 +19,9 @@ img{
 
 .container{
   display: flex;
+  flex-flow: row;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 #menu li{
@@ -45,16 +44,17 @@ img{
  padding: 5px;
 }
 
+footer div{
+  display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
 .mb-50{
   margin-bottom: 50px;
   
 }
 
-/*Contato*/
-.contato{
-
-}
-
-#endereco{
-
+.ml-50{
+  margin-left: 50px;
 }
