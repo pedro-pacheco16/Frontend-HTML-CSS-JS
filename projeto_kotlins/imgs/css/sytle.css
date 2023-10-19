@@ -1,0 +1,60 @@
+/*Estilo da Página Index.html*/
+.h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: violet;
+  text-align: center;
+}
+.justfy{
+text-align: justify;
+}
+.center{
+  font-size: 20px;
+  text-align: center;
+}
+img{
+  width:1050px;
+}
+
+/*Display*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#menu li{
+  display: inline;
+  padding: 5px;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: black;
+}
+
+#menu li a:hover {
+  color:gray; 
+}
+
+.tm-social{
+ width: 30px;
+ height: 30px;
+ padding: 5px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+  
+}
+
+/*Contato*/
+.contato{
+
+}
+
+#endereco{
+
+}
